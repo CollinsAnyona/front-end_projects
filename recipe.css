@@ -1,20 +1,94 @@
 html {
-    width: 1440px;
+    width: vw;
     height: vh;
-    /* background-color: aqua; */
+    background-color: hsl(350, 100%, 88%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .main-page {
     width: 800px;
     height: vh;
-    border-radius: 5%;
+    border-radius: 1%;
+    padding: 10px;
+    margin: auto;
+    background-color: hsl(0, 0%, 100%);
+    /* display: flex; */
+    /* align-items: center; */
 }
-#image img {
-    width: 100%;
+#box-0 img{
+    border-radius: 5px;
+}
+h1 {
+    padding-left: 20px;
+}
+.image {
+    width: 95%;
     height: 10%;
-    border-radius: 2%;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 20px 20px 20px 20px;
+}
+#box-1 {
+    padding-left: 20px;
 }
 #box-2 {
-    background-color: hsl(332, 51%, 32%);
+    background-color: hsl(350, 58%, 86%);
+    padding: 20px;
+    border-radius: 2%;
+    width: 90%;
+    margin: 20px;
 }
-
-
+p {
+    font-size: 16px;
+}
+h3 {
+    color: hsl(332, 51%, 32%);
+}
+#box-2-1 {
+    padding: 5px 0px 5px 10px;
+}
+#box-3 {
+    padding-left: 20px;
+}
+#box-4 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#box-5 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+hr {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+}
+ul li::marker {
+    color: hsl(14, 45%, 36%);
+}
+h2 {
+    color: hsl(14, 45%, 36%);
+}
+#cal {
+    text-align-last: left;
+    /* float: left; */
+    position: relative;
+    /* top: -15px; */
+    padding-left: 80px;
+}
+#cal2 {
+    text-align-last: right;
+    /* float: right; */
+    position: relative;
+    top: -15px;
+    padding-right: 350px;
+    color: hsl(14, 45%, 36%);
+    margin-top: auto;
+    margin-bottom: auto;
+}
+hr { margin: 0.1em auto; }
